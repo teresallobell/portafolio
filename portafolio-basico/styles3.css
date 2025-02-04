@@ -1,0 +1,132 @@
+ body { 
+
+    margin: 0;
+    font-family: arial,sans-serif;
+    background-color: #ADD8E6;
+               color: white;
+}
+nav { 
+  
+  display: flex;
+justify-content: center;
+      padding: 20px 0;
+background-color: #005f99;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.nav-list { 
+
+    display: flex;
+  list-style: none;
+    margin: 0;
+    padding: 0;
+     gap: 30px;
+     
+}
+ .nav-list a { 
+   text-decoration: none;
+             color: white;
+     font-size: 1.2rem;
+    font-weight: bold;
+  transition: color 0.3s;transform: 0.3s;
+ }
+ .nav-list a:hover { 
+             color: #ffd700;
+     transform: scale(1.1);
+
+ }
+ @media ( min-width: 1024px) { 
+
+ .nav-list a { 
+      font-size: 1.5rem;
+ }
+
+ }
+ .nav-list { 
+    gap: 50px;
+ }
+ @media(max-width:600px) { 
+ .nav-list { 
+    flex-direction: column;
+     align-items: center;
+            gap: 15px;
+ }
+
+ }
+ 
+.titulo {              
+    display: flex;
+   justify-content: center;
+         padding: 20px;
+          color: cornflowerblue;
+  }  
+
+  body { 
+    font-family: arial,sans-serif;
+    margin: 0;
+   background-color: white;
+              color:#005f99;
+         padding: o;     
+  }
+ form { 
+     max-width: 400px;
+     margin: 0 auto;
+     padding: 30px;  
+     background-color: #fff;
+     border: 1px solid#ccc;  
+     gap: 50%;
+  
+ }
+  label { 
+    display: block;
+    
+   font-weight: bold;
+   color: #005f99;
+    
+  }
+  input textarea { 
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+      
+        
+        
+       background-color: #e3f2fd;
+       font-size: 100px;
+       display: block;
+  }
+  textarea { 
+
+    height: 100px;
+    width: 100%;
+  }
+       
+ 
+
+  button { 
+       background-color:#005f99;
+        color: white;
+       border: none;
+       padding: 5px 180px;
+      font-size: 16px;
+       border-radius: 5px;
+          cursor: pointer;
+       transition: background-color 0,3s;   
+  }
+  button:hover { 
+      background-color: #ffd700;
+  }
+  h1 { 
+    text-align: center;
+    margin-bottom: 20px;
+           color: #005f99;
+  }
+  p {  
+     font-size: 15px;
+     text-align: center;
+      color: #333;
+  }
+  div  {
+     width: 200px;
+     height: 50px;
+  }
+
