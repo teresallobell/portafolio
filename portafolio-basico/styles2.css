@@ -71,13 +71,11 @@ body {
  .card-hobby { 
      background-color: linear-gradient(135deg,#005f99 lightcyan);
      padding: 20px;
-  
+     
      border-radius: 10px;
      box-shadow: 5px 5px 15px rgb(0,0,0,o.2);
      transition: transform 0.3s ease;
      
-     
-
  }
    .card-hobby h2 { 
       font-size: 20px;
