@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles3.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="inicio.html">inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mi</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <main> 
+    <h1 class="contacto">Contacto</h1>
+    <p class="fondo-black texto-centrado">
+      ¿Tienes alguna pregunta o quieres trabajar conmigo?<br />
+      Completa el formulario y me pondre en contacto contigo lo antes posible.
+    </p>
+  
+  <div class="contenedor">
+     
+    <form id="contactform">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="tu nombre" />
+    
+
+       
+      <label for="email">Correo Electronico</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="tu correo electronico"
+      />
+       
+      <label for="menssage">Mensaje</label>
+      <textarea
+        id="menssage"
+        name="menssage"
+        required
+        minlength="50"
+        placeholder="Tu mensaje"
+        rows="5"
+      ></textarea>
+     
+      <button type="submit">Enviar</button>
+  
+    </form>
+  </div>
+
+  </main>
+
+  </body>
+</html>
